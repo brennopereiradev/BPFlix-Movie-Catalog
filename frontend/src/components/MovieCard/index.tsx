@@ -1,4 +1,5 @@
 import MovieScore from "../MovieScore";
+import { Link } from "react-router-dom";
 import "./styles.css";
 
 
@@ -17,7 +18,10 @@ function MovieCard() {
             <div className="bpflix-card-bottom-container">
                 <h3>{movie.title}</h3>
                 <MovieScore />
-                <div className="btn btn-primary bpflix-btn">Avaliar</div>
+
+                <Link to={`/form/${movie.id}`}>
+                    <div className="btn btn-primary bpflix-btn">Avaliar</div>
+                </Link>
             </div>
         </div>
     );
