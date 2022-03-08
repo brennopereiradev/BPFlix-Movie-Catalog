@@ -3,6 +3,9 @@
 :root {
   --color-primary: #4D41C0;
   --light-gray: #E8E8E8;
+  --white: #fff;
+  --black: #211b15;
+  --poppins: 'Poppins', sans-serif;
 }
 
 * {
@@ -15,7 +18,7 @@ html, body {
 }
 
 h1{
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--poppins);
     font-weight: 300;
 }
 

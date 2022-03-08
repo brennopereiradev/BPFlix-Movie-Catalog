@@ -13,7 +13,7 @@ function MovieCard() {
     };
 
     return (
-        <div>
+        <div className="bpflix-card-container">
             <img className="bpflix-movie-card-image" src={movie.image} alt={movie.title} />
             <div className="bpflix-card-bottom-container">
                 <h3>{movie.title}</h3>

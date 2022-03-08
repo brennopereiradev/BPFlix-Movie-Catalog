@@ -1,4 +1,5 @@
 import { ReactComponent as GithubIcon } from 'assets/img/github.svg';
+import { ReactComponent as LogoIcon } from 'assets/img/logo1-bpf.svg';
 import 'bootstrap/dist/css/bootstrap.css';
 import './styles.css';
 
@@ -7,7 +8,11 @@ function Navbar() {
         <header>
             <nav className="container">
                 <div className="bpflix-nav-content">
-                    <h1>BPFlix - Movie Catalog</h1>
+                    <div className="bpflix-logo">
+                        <a href="/">
+                            <LogoIcon />
+                        </a>
+                    </div>
                     <a href="https://github.com/brennopereiradev/_BPFlix" target="_blank" rel="noreferrer">
                         <div className="bpflix-contact-container">
                             <GithubIcon />
@@ -16,7 +21,7 @@ function Navbar() {
                     </a>
                 </div>
             </nav>
-        </header>
+        </header >
     );
 }
 

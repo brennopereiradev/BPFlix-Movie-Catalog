@@ -1,21 +1,29 @@
 /*Header - Navbar*/
 
 header {
-    height: 60px;
-    background-color: var(--color-primary);
+    height: auto;
     display: flex;
     align-items: center;
+    padding: 5px;
+    margin-bottom: 100px;
+    background: var(--black);
+    padding: 10px;
+  }
+
+  .bpflix-logo{
+    width: 150px;
+    height: auto;
   }
   
   .bpflix-nav-content {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    color: #fff;
+    color: var(--white);
   }
   
   .bpflix-nav-content h1 {
-    font-size: 24px;
+    font-size: 2em;
     margin: 0;
     font-weight: 700;
   }
