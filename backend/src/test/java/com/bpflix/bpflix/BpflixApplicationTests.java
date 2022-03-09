@@ -1,10 +1,10 @@
-package com.brennopereira.BPFlix;
+package com.bpflix.bpflix;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class BpFlixApplicationTests {
+class BpflixApplicationTests {
 
 	@Test
 	void contextLoads() {

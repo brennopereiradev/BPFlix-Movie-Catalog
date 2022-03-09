@@ -1,13 +1,13 @@
-package com.brennopereira.BPFlix;
+package com.bpflix.bpflix;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class BpFlixApplication {
+public class BpflixApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(BpFlixApplication.class, args);
+		SpringApplication.run(BpflixApplication.class, args);
 	}
 
 }
