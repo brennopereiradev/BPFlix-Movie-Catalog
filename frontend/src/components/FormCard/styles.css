@@ -1,7 +1,6 @@
 .bpflix-form-container {
     max-width: 480px;
     margin: 40px auto;
-    padding: 20px;
 }
 
 .bpflix-form {
@@ -12,14 +11,20 @@
     margin-bottom: 20px;
 }
 
-.bpflix-form-group label {
-    font-size: 12px;
-    color: #aaa;
+.bpflix-form-group select{
+    cursor: pointer;
 }
 
-.bpflix-form-btn-container {
-    display: flex;
-    justify-content: center;
+.bpflix-form-group span{
+    border-radius: 8px 0 0 0;
+}
+
+.bpflix-form-group #email{
+    border-radius: 0 0 8px 0;
+}
+
+.bpflix-form-group #score{
+    border-radius: 8px 0 8px 0;
 }
 
 .bpflix-movie-card-image {
@@ -27,31 +32,39 @@
     border-radius: 8px 8px 0 0;
 }
 
-.bpflix-card-bottom-container {
+.bpflix-form-card-bottom-container {
     background-color: var(--white);
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 10px 10px 20px 10px;
     border-radius: 0 0 8px 8px;
 }
 
-.bpflix-card-bottom-container h3 {
-    color: #4A4A4A;
+.bpflix-form-card-bottom-container h3 {
+    background: var(--black);
+    color: var(--white);
     text-align: center;
-    font-size: 14px;
+    font-size: 1.5em;
     font-weight: 700;
-    margin-bottom: 10px;
+    padding: 10px;
+    margin-bottom: 30px;
+    width: 100%;
     min-height: 40px;
 }
 
-.bpflix-btn {
-    background-color: var(--color-primary);
-    font-size: 14px;
-    font-weight: 700;
-    height: 40px;
-    width: 180px;
+.bpflix-form-btn-container {
     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     align-items: center;
-    justify-content: center;
+    padding: 20px 0 30px 0;
 }
+
+.bpflix-btn {
+    font-size: 1em;
+    font-weight: 700;
+    border-radius: 8px 0 8px 0;
+    border: none;
+    width: 180px
+}
+
