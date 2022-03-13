@@ -12,7 +12,7 @@ function MovieScore({score, count} : Props) {
         <div className="bpflix-score-container">
             <p className="bpflix-score-value">{score > 0 ? score.toFixed(1) : '-'}</p>
             <MovieStars score={score} />
-            <p className="bpflix-score-count">{count} avaliações</p>
+            <p className="bpflix-score-count">{count} assessments</p>
         </div>
     );
 }
