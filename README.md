@@ -14,6 +14,7 @@
 * React
 
 ### Netfly address
+#### Note: Netfily take some time for start to render the website (15sec + -) , Sorry about that
 
 <a href="https://bpflix.netlify.app/">bpflix.netlify.app</a>
 
