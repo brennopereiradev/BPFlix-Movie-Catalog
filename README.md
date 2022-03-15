@@ -17,6 +17,8 @@
 
 <a href="https://bpflix.netlify.app/">bpflix.netlify.app</a>
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/96812b27-1c17-44d5-9f41-d8050cc9e658/deploy-status)](https://app.netlify.com/sites/bpflix/deploys)
+
 ### Contact
 
 brennopereiradev@gmail.com
